@@ -26,17 +26,10 @@
 </template>
 
 <script>
+import '../css-component/poster-slide.css';
 export default {
     name: 'PosterSlide',
     props: ["posters"],
 };
 </script>
 
-<style scoped>
-#posterSlide {
-  width: 1050px;
-  height: 424px;
-  border: 2px solid rgb(204, 204, 204);
-  padding: 4px;
-}
-</style>

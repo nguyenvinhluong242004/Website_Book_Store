@@ -7,7 +7,7 @@
 
     <div class="book-list-container">
       <ProductCard
-        v-for="(product, index) in products"
+        v-for="(product, index) in products_top"
         :key="index"
         :img="product.img"
         :name="product.name"
@@ -20,6 +20,8 @@
 </template>
 
 <script>
+import '../css-component/top-seller.css';
+
 import ProductCard from "./ProductCard.vue";
 
 export default {
@@ -27,34 +29,6 @@ export default {
   components: {
     ProductCard,
   },
-  props: ["products"],
+  props: ["products_top"],
 };
 </script>
-
-<style scoped>
-.top-seller-container {
-  width: 1000px;
-  height: 510px;
-  background-color: #dfdfdf;
-  border-radius: 15px;
-  overflow: auto;
-}
-.top-seller-label {
-  width: 200px;
-  height: 35px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #accfe6;
-  color: #205aa2;
-  border-bottom-right-radius: 10px;
-  font-weight: bold;
-}
-.book-list-container {
-  width: 100%;
-  height: 450px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-}
-</style>
