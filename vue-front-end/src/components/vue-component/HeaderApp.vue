@@ -48,12 +48,12 @@
         <i class="fas fa-shopping-cart"></i>
       </div>
       <div class="iconUser">
-        <i class="fas fa-user" @click="userClick"></i>
+        <i class="fas fa-user" @click="userClick"></i> 
         <div v-if="userVisible" class="userBox">
           <div class="userBoxHeader">
             <div class="userInfor">
               <div class="userAvatar"></div>
-              <div class="userName">User Nêm</div>
+              <div class="userName"><router-link to="/account">Chitiet</router-link></div>
             </div>
             <i class="fa-solid fa-angle-right"></i>
           </div>

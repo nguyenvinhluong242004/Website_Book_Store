@@ -4,7 +4,9 @@
   "poster_skill":"/IMG/kinang.jpg",
   "poster_science":"/IMG/khoahoc.jpg",
   "poster_family":"/IMG/giadinh.jpg",
-  "product":[
+  "poster_literature":"/IMG/giadinh.jpg",
+
+  "products_top":[
     {
       "id":"1",
       "img":"/IMG/typhubangiay.jpg",
@@ -38,7 +40,7 @@
       "type_money":"vnđ"
     }
   ],
-  "product_skill":[
+  "products_skill":[
     {
       "id":"1",
       "img":"/IMG/xanh.jpg",
@@ -72,7 +74,7 @@
       "type_money":"vnđ"
     }
   ],
-  "product_science":[
+  "products_science":[
     {
       "id":"1",
       "img":"/IMG/masusong.jpg",
@@ -107,6 +109,40 @@
     }
   ],
   "products_family":[
+    {
+      "id":"1",
+      "img":"/IMG/caigia.jpg",
+      "name":"Cái giá của yêu thương",
+      "old_price":"195000",
+      "new_price":"156200",
+      "type_money":"vnđ"
+    },
+    {
+      "id":"2",
+      "img":"/IMG/gioi.jpg",
+      "name":"Cha mẹ giỏi con yêu thương",
+      "old_price":"149000",
+      "new_price":"100200",
+      "type_money":"vnđ"
+    },
+    {
+      "id":"3",
+      "img":"/IMG/tannhan.jpg",
+      "name":"Vô cùng tàn nhẫn Vô cùng yêu thương",
+      "old_price":"291000",
+      "new_price":"79200",
+      "type_money":"vnđ"
+    },
+    {
+      "id":"4",
+      "img":"/IMG/thanhcong.jpg",
+      "name":"Để trẻ thành công",
+      "old_price":"123000",
+      "new_price":"53200",
+      "type_money":"vnđ"
+    }
+  ],
+  "products_literature":[
     {
       "id":"1",
       "img":"/IMG/caigia.jpg",
